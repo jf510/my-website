@@ -1,0 +1,68 @@
+h1,  h3, h4 {
+    color: rgb(98, 98, 251);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+h1 {
+    font-size: 50px;
+}
+
+.contact__bar {
+    font-size: 17px;
+    font-weight: 500;
+}
+.company__name {
+    color: slategray;
+    padding-bottom: -5px;
+}
+
+
+.contact__bar ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+
+
+.resume__body {
+    display: flex;
+}
+
+.resume__bodyLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 0.60;
+    margin: 30px;
+}
+
+.resume__bodyRight {
+    display: flex;
+    flex: 0.30;
+    margin: 30px;
+    flex-direction: column;
+
+}
+
+
+
+.experience__list {
+    
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+.skill{
+    margin: 10px;
+    
+}
+
+
+
+.columbia__university {
+    margin: 10px;
+}

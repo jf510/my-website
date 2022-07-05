@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jordan Fontaine</title>
+    <link rel="stylesheet" type="text/css" href="default.css">
+    <link id="theme-style" rel="stylesheet" type="text/css" href="">
+</head>
+<body>
+
+    <section class="section1">
+        <div class="main__container">
+            <div class="greeting__container">
+                <p>Hi, my name is</p>
+                <h1>Jordan Fontaine.</h1>
+            </div>
+            <div class="intro__container">
+                <div class="intro__navigation">
+                    <div class="navigation__dots">                    
+                    <div id="red__dot" class="nav__dot"></div> 
+                    <div id="yellow__dot" class="nav__dot"></div> 
+                    <div id="green__dot" class="nav__dot"></div> 
+                    </div>
+                    <ul class="navigation__links">
+                        <li><a target="_blank" href="https://www.linkedin.com/in/jordan-fontaine/">Contact</a></li>
+                        
+                    </ul>
+                    
+                </div>
+                <div class="intro__left">
+                    <img id="profile__pic" src="images/Jordan.jpg" />
+                    <h4>Personalize Theme</h4>
+                    <div class="theme__dots">
+                        <div data-mode="light" id="light__theme" class="theme__dot"></div>
+                        <div data-mode="blue" id="blue__theme" class="theme__dot"></div>
+                        <div data-mode="green" id="green__theme" class="theme__dot"></div>
+                        <div data-mode="purple" id="purple__theme" class="theme__dot"></div>
+                    </div>
+                    <p id="settings__note">*Theme settings will be saved for<br/> your next visit</p>
+                </div>
+                <div class="intro__right">
+                    <div class="preview__shadow">
+                        <div id="preview">
+                            <div id="corner__nw" class="corner"></div>
+                            <div id="corner__ne" class="corner"></div>
+                            <h3>What I Do</h3>
+                            <p>I build fullstack web applications in Javascript and Python</p>
+                            <div id="corner__sw" class="corner"></div>
+                            <div id="corner__se" class="corner"></div>
+                        </div>
+                    </div>
+                    <div id='preview__shadow2' >
+                        <div class="preview2">
+                            <div id="corner__nw" class="corner"></div>
+                            <div id="corner__ne" class="corner"></div>
+                            <h3>Where I learned:</h3>
+                            <div class='education'>
+                                <div class="education__left">
+                                    
+                                        <img id="springboard" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMEDmf3A0sQ0e0pY6vchZFF5llr7Yn5i7xsw&usqp=CAU" alt="">
+                                    
+                                  <a target="_blank" href="https://www.springboard.com/"><button id="springboard__button">Springboard</button></a>  
+                                </div>
+                                <div class="education__right">
+                                    <div class="Columbia__picture">
+                                        <img id="columbia" src="data:image/png;base64,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" alt="">
+                                    </div>
+                                    <a target="_blank" href="https://bulletin.columbia.edu/general-studies/majors-concentrations/physics/#requirementstext"><button id='columbia__button' >Columbia University</button></a>  
+                                </div>                               
+                            </div>
+                            <div id="corner__sw" class="corner"></div>
+                            <div id="corner__se" class="corner"></div>
+                        </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <section class="section2">
+        <div class="main__container">
+            <div class="aboutMe__container">
+                <div class="aboutMe__left">
+                    <h4 id="h4A">Get to know more about me</h4>
+                    <p id="p1">
+                      I am a fullstack developer coding primarily in JS and Python.
+                      I like to build projects to increase my skills and as I finish
+                      ones that I have enjoyed, I post them here.</p>
+                      <p id="p2"> I enjoy the instant
+                      gratification of watching front end work come to life while also
+                      being tested by backend development. Fullstack engineering is
+                      newfound passion of mine and compliments my loves of travel and
+                      learning.
+                    </p>
+          
+                    <hr />
+          
+                    <h4 id="h4B">Top Expertise</h4>
+          
+                    <p id="p3">
+                      Fullstack developer with primary experience with React + Mongodb,
+                      Node.js, and Firebase:<br>
+                      <a target="_blank" href="Resume.pdf">
+                        <button id="resume">Download Resume</button>
+                      </a>
+                    </p>
+          
+                    <div id="skills">
+                      <ul>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Node.js</li>
+                        <li>Mongodb</li>
+                        <li>Firebase</li>
+                      </ul>
+          
+                      <ul>
+                        <li>Python</li>
+                        <li>Flask</li>
+                        <li>Express</li>
+                        <li>SQL</li>
+                        <li>AWS Hosting</li>
+                      </ul>
+                    </div>
+                  </div>
+                <div class="aboutMe__right">
+                    <h3>Find me on LinkedIn & Twitter</h3>
+                    <a target="_blank" href="https://www.linkedin.com/in/jordan-fontaine/">
+                        <button id="twitter">Linkedin</button>
+                    </a>
+                    <a target="_blank" href="https://twitter.com">
+                        <button id="twitter">Twitter</button>
+                    </a>
+                </div>
+            </div>
+            </div>
+    </section>
+    <section class="section1">
+        <div class="main__container">
+            <h2>Some of my past projects</h2>
+           
+            <div class="card__container">
+                <div class="cards__row1">
+                    <div class="card">
+                        <img class="thumbnail" src="images/Amazon.png" alt=""/>
+                        <div class="card__preview">
+                            <h6 class="card__title">Amazon Shopping Clone</h6>
+                            <p class="card__intro">This is a fully functional E-commerce website build with React, Express, Node and Firebase. Includes Stripe payment functionality.</p>
+                            <a target="_blank" href="https://github.com/jf510/Amazon-App">Check out the Code</a>
+                            <a target="_blank" href="https://app-5d7c3.web.app/">View the live site!</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="thumbnail" src="images/Notflix.png" alt=""/>
+                        <div class="card__preview">
+                            <h6 class="card__title">Video Streaming App</h6>
+                            <p class="card__intro">This is an app for streaming videos based on Netflix layout.</p>
+                            <a target="_blank"  href="https://github.com/jf510/Notflix">Check out the Code</a>
+                            <a target="_blank" href="https://notflix-4585d.web.app/">View the live site!</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="thumbnail" src="images/SearchEngine.png" alt=""/>
+                            <div class="card__preview">
+                                <h6 class="card__title">Search Engine</h6>
+                                <p class="card__intro">This is a fully functional search engine built with the google.</p>
+                                <a target="_blank" href="https://github.com/jf510/theSearchHak">Check out the Code</a>
+                                <a target="_blank" href="https://thesearchak.web.app/">View the live site!</a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section2">
+        <div class="contact__container">
+            <h3>Get In Touch</h3>
+            <form action="https://formsubmit.co/jordanmfontaine@gmail.com" method="POST" class="contact__form">
+                <label>Name</label>
+                <input class="input__field" type="text" name="name" required />
+
+                <label>Subject</label>
+                <input class="input__field" type="text" name="subject" required />
+
+                <label>Email</label>
+                <input class="input__field" type="text" name="email" required />
+
+                <label>Message</label>
+                <textarea class="text__field" name="message" required></textarea>
+
+
+                <input id="submit__button" type="submit" value="Send" />
+            </form>
+        </div>
+    </section>
+    <script type="text/javaScript" src="app.js"></script>
+</body>
+</html>

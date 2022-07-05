@@ -1,0 +1,30 @@
+:root {
+    --mainText:black;
+    --secondaryText:#4b5156;
+
+    --borderColor:#c1c1c1;
+
+  
+    --secondaryColor: #DEC599;
+    --gradientColors: #33ccff 0%, #ff9966 100%;
+    --reverseGradientColors: #ff9966 0%,#33ccff 100%;
+
+    --themeDotBorder:#24292e;
+
+    --previewBackground:rgba(251, 249, 243, 0.8);
+    --previewShadow: #f0ead6;
+
+    --buttonColor:black;
+}
+
+.section1 {
+    background: linear-gradient(to bottom, var(--gradientColors));
+}
+
+.section2 {
+    background: linear-gradient(to bottom, var(--reverseGradientColors));
+}
+
+#blue__theme {
+    background: linear-gradient(to bottom, var(--gradientColors));
+}
